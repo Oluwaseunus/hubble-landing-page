@@ -306,6 +306,10 @@ footer {
 
 .about,
 .company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   a {
     font-weight: normal;
   }
